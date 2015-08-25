@@ -1,0 +1,22 @@
+
+---------------------------------------
+To build CDDWeb:
+---------------------------------------
+	1. Clean project & delete target directory:
+		mvn clean
+	2. Build!
+		mvn install
+
+---------------------------------------
+To generate the project file (*.project) needed for an Eclipse Project.
+---------------------------------------
+	mvn eclipse:eclipse
+---------------------------------------
+Running the product
+---------------------------------------
+There are 2 ways to deploy your webapp to webserver:
+
+1. You can use an embedded Tomcat instance to run the product in maven.
+	mvn tomcat:run 
+
+2. Copy CDDWeb.war to your Webserver deploy directory then start the server
