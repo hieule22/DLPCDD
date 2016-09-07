@@ -14,6 +14,7 @@ import org.apache.commons.io.FilenameUtils;
  * List all files based on specific search configurations
  * Created by Hieu Le on 7/21/15.
  */
+
 public class FileLister {
     // The default root directory
     private static final String DEFAULT_ROOT_PATH = "/";
