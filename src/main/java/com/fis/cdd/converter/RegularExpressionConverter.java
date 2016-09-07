@@ -1,16 +1,9 @@
-/**
- * 
- */
 package com.fis.cdd.converter;
 
 import org.springframework.stereotype.Component;
 
 import com.fis.cdd.entity.RegularExpression;
 
-/**
- * @author HaiNT
- *
- */
 @Component
 public class RegularExpressionConverter
 		implements BaseConverter<RegularExpression, com.fis.cdd.model.RegularExpression> {
