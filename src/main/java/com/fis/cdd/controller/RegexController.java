@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.fis.cdd.controller;
 
 import java.util.List;
@@ -19,10 +16,6 @@ import com.fis.cdd.model.RegularExpressionForm;
 import com.fis.cdd.service.RegexService;
 import com.fis.cdd.util.Constants;
 
-/**
- * @author HaiNT
- *
- */
 @Controller
 public class RegexController implements BaseController, Constants {
 

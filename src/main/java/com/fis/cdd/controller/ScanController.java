@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.fis.cdd.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,11 +13,6 @@ import com.fis.cdd.profile.profiles.ResultLog;
 import com.fis.cdd.model.Scan;
 import com.fis.cdd.service.ScanService;
 import com.fis.cdd.util.Constants;
-
-/**
- * @author HaiNT
- *
- */
 
 @Controller
 @SessionAttributes

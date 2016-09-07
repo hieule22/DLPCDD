@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.fis.cdd.controller;
 
 import java.util.Date;
@@ -16,10 +13,6 @@ import com.fis.cdd.model.HistoryList;
 import com.fis.cdd.model.ScanHistory;
 import com.fis.cdd.util.Constants;
 
-/**
- * @author HaiNT
- *
- */
 @Controller
 public class CDDController implements BaseController, Constants {
 

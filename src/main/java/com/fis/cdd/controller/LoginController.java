@@ -13,8 +13,6 @@ import com.fis.cdd.service.UserService;
 
 @Controller
 public class LoginController {
-	// @Autowired
-	// private UsersDAO usersDAO;
 
 	@Autowired
 	private UserService userService;
